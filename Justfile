@@ -1,2 +1,2 @@
 test *args:
-    cargo test {{args}} -- --show-output
+    cargo test {{args}} -- --show-output -q --nocapture
